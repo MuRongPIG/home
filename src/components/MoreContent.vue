@@ -1,7 +1,10 @@
 <template>
   <div class="more-content">
     <span class="greeting">
-      您可在此编写任意内容
+      你好，我是@MuRongPIG，一名cs专业本科生。<br>
+      生长于江汉平原，现于九河下梢求学。<br>
+      你能找到这里并看到这段话，说明我们有缘分，不是吗？<br>
+      欢迎通过下面以及右边的相关链接了解我、联系我。<br>
     </span>
   </div>
 </template>

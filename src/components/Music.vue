@@ -210,8 +210,6 @@ watch(
   width: 100%;
   height: 100%;
   background: var(--card-background-color);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
   border-radius: 6px;
   padding: 20px;
   display: flex;

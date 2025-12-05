@@ -9,7 +9,7 @@ export const storeState: MainState = {
   coverType: 0 as number, // 【开关】壁纸种类
   sBGCount: null as string | null, // 【状态】使用内置壁纸时用于临时指定壁纸的接口
   seasonalEffects: true, // 【开关】季节特效
-  msgNameShow: false, // 【开关】信息区域显示自定义名而非原本的 URL
+  msgNameShow: true, // 【开关】信息区域显示自定义名而非原本的 URL
   siteStartShow: true, // 【开关】建站日期显示
   musicClick: true, // 【开关】音乐链接是否跳转
   musicBoxOpenState: false, // 【状态】音乐盒子开启状态
@@ -35,7 +35,7 @@ export const storeState: MainState = {
   playerLoop: "all", // 【开关】循环播放 "all", "one", "none"
   playerOrder: "random", // 【开关】循环顺序 "list", "random"
   webSpeech: true, // 【开关】网页语音交互总开关（包含播报歌名功能）
-  playerSpeechName: true, // 【开关】播报歌名
+  playerSpeechName: false, // 【开关】播报歌名
   playerTrLrc: false, // 【开关】逐行歌词调用翻译歌词开关
   playerDWRCShow: true, // 【开关】逐字歌词解析总开关
   playerDWRCShowPro: true, // 【开关】逐字效果增强开关
@@ -50,7 +50,7 @@ export const storeState: MainState = {
   dwrcLoading: false, // 【状态】逐字歌词加载
   lyricSeekVersion: 0, // 【状态】歌词跳转版本，用于重置动画
   forceShowBarIcon: false, // 【开关】进度图标常驻
-  showFirefly: false, // 【状态】萤火虫特效
+  showFirefly: true, // 【状态】萤火虫特效
   showSnowfall: false, // 【状态】雪花特效
   showLantern: false, // 【状态】灯笼特效
   showProgressIcon: false, // 【状态】进度条图标显示状态

@@ -140,21 +140,6 @@ onMounted(() => {
   // 自定义鼠标
   cursorInit();
 
-  // 屏蔽右键
-  document.oncontextmenu = () => {
-    ElMessage({
-      message: "为了浏览体验，本站禁用右键",
-      grouping: true,
-      duration: 2000,
-    });
-    if (store.webSpeech) {
-      stopSpeech();
-      const voice = envConfig.VITE_TTS_Voice;
-      const vstyle = envConfig.VITE_TTS_Style;
-      SpeechLocal("鼠标右键.mp3");
-    };
-    return false;
-  };
 
   // 鼠标中键事件
   window.addEventListener("mousedown", (event) => {

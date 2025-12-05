@@ -53,11 +53,8 @@
     .cards {
         border-radius: 6px;
         background-color: rgba(245, 245, 245, 0.5);
-        -webkit-backdrop-filter: blur(3px);
-        backdrop-filter: blur(3px);
         transform: scale(1);
         transition:
-            backdrop-filter 0.3s,
             transform 0.3s;
 
         &:hover {
