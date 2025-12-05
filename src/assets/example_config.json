@@ -20,7 +20,7 @@
     "VITE_SITE_ICP": "",
     "VITE_SITE_MPS": "",
     "VITE_SITE_MICP": "",
-    "VITE_SONG_API": "https://metingapi.nanorocky.top/",
+    "VITE_SONG_API": "https://meting-api-omega.vercel.app/",
     "VITE_SONG_SERVER": "netease",
     "VITE_SONG_SERVER_SECOND": "",
     "VITE_SONG_TYPE": "playlist",
