@@ -45,15 +45,6 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
 
-      - name: Configure environment
-        run: |
-          if (-not (Test-Path .env)) {
-            Copy-Item .env.example .env
-            Write-Host "Created .env from example"
-          } else {
-            Write-Host ".env already exists"
-          }
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
