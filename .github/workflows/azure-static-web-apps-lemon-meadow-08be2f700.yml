@@ -22,8 +22,7 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: Install OIDC Client from Core Package
-        run: npm install @actions/core@1.6.0 @actions/http-client
+
       - name: Get Id Token
         uses: actions/github-script@v6
         id: idtoken
@@ -47,6 +46,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Install OIDC Client from Core Package
+        run: pnpm install @actions/core@1.6.0 @actions/http-client
 
       - name: Build Website
         run: pnpm run build
