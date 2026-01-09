@@ -16,7 +16,22 @@
   },
   {
     "icon": "LaptopCode",
-    "name": "站点监测",
+    "name": "服务器状态监测",
     "link": "https://monitor.murongpig.site/"
+  },
+  {
+    "icon": "Globe",
+    "name": "校园站点监测",
+    "link": "https://uptime.murongpig.site/"
+  },
+  {
+    "icon": "Ethernet",
+    "name": "加密dns",
+    "link": "https://dns.murongpig.site/"
+  },  
+  {
+    "icon": "Tools",
+    "name": "常用工具",
+    "link": "https://tools.murongpig.site/"
   }
 ]
